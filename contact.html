@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/validation.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html #about">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1><center>Contact Me</center></h1>
+            <form action="php/submit_contact.php" method="POST" id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section><br><br><br><br><br>
+    </main>
+
+    <table border ="0" style="background-color:black;"width="100%">
+        <th>
+            <a href="https://wa.me/0785705497" target="_blank">
+                <img src="image/wa.jpg" alt="Contact me on WhatsApp" style="width:45px;height:45px;">
+            </a>
+            <a href="https://www.instagram.com/_chathu_11era_/" target="_blank">
+                <img src="image/insta.jpg" alt="Follow me on Instagram" style="width:35px;height:35px;">
+            </a>
+            <a href="https://www.facebook.com/chathumieranga" target="_blank">
+                <img src="image/fb.jpg" alt="Follow me on Facebook" style="width:45px;height:45px;">
+            </a>
+            <a href="mailto:chathuera23@gmail.com">
+                <img src="image/mail.jpg" alt="Email me" style="width:45px;height:45px;">
+            </a>
+        
+        </th>
+    </table>
+    <br><br><br>
+
+    <footer>
+        <p>&copy; 2024 HDSDD</p>
+    </footer>
+</body>
+</html>

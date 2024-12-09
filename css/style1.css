@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ddd0c8;
+    color: #323232;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* Portfolio Title */
+  .portfolio-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 20px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #333333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Navigation Bar */
+  .navbar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #323232;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s;
+    padding: 5px 10px;
+  }
+
+  .navbar a:hover {
+    color: #ffffff;
+    background-color: #323232;
+    border-radius: 5px;
+  }
+
+  .contact-button {
+    font-weight: 600;
+    color: #323232;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  /* Header Section */
+  .header {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .header h1 {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .header h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+
+  /* Profile Section */
+  .profile {
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+  }
+
+  .profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #333;
+  }
+
+  .profile-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: 330px;
+    background-color: #323232;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  footer {
+  background: #010000;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
